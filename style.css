@@ -1,0 +1,54 @@
+.animationAppear {
+    animation: slideShow 2s ease forwards;
+}
+
+.bgSuccess {
+    background-color: #8ec391;
+    border-left: 5px solid green;
+    color: whitesmoke;
+}
+
+.bgWarning {
+    background-color: rgba(255, 0, 0, 0.4);
+    border-left: 5px solid red
+}
+
+.animationHire {
+    animation: slideHire 2s ease forwards;
+}
+
+@keyframes slideShow {
+    0% {
+        transform: translate(120%);
+    }
+
+    50% {
+        transform: translate(0%);
+    }
+
+    50% {
+        transform: translate(-30%);
+    }
+
+    100% {
+        transform: translate(20%);
+    }
+}
+
+@keyframes slideHire {
+    0% {
+        transform: translate(20%);
+    }
+
+    50% {
+        transform: translate(50%);
+    }
+
+    50% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(120%);
+    }
+}
