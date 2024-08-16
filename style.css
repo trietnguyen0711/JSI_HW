@@ -17,6 +17,10 @@
     animation: slideHire 2s ease forwards;
 }
 
+.bgBlack {
+    background: black;
+}
+
 @keyframes slideShow {
     0% {
         transform: translate(120%);
